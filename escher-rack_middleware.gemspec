@@ -1,8 +1,9 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'escher/rack_middleware/version'
-
+# lib = File.expand_path('../lib', __FILE__)
+# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# binding.pry
+# require 'escher/rack_middleware/version'
+require File.join(File.dirname(__FILE__), 'lib', 'escher/rack_middleware/version')
 Gem::Specification.new do |spec|
 
   spec.name          = 'escher-rack_middleware'
